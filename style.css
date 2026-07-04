@@ -5,3 +5,28 @@ body{
     color: white;
     overflow:hidden;
 }
+.main{
+    display:flex;
+    height:100vh;
+}
+.sidebar{
+    background: color #121212;;
+    width: 340px;
+    border-radius:16rem;
+    /*1rem == 16px*/
+}
+.main_content{
+    background-color:#121212;
+    flex:1;
+    border-radius:16rem;
+    /* it says that giive all the required space to other container according to the content inside them and give rest space to me*/
+    overflow:auto;
+    /*scroll bar will only show when it is required and is only for  the main content*/
+}
+.music-player{
+    background-color:black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:72px;
+}
