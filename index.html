@@ -63,8 +63,100 @@
             <i class="fa-regular fa-user nav-item"></i>
             </div>
         </div>
-        <div class="cards"></div>
+<!-- a single card start here with heading -->
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+            </div>
+<!-- a single card end here -->
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+             
+
+                <div class="card">
+                    <img src="assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+            
+
+
+                <div class="card">
+                    <img src="assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+
+<!-- ye dono iss container me flex wrap seekhne ke liyea lagaye the maa ho to remove kar diyo -->
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+             
+
+            
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+            </div> 
+<!-- yaha ke neeche wala remove mat karna and ek upar wala div closing tag chor  dena wo cards container ko close kar raha hai -->
+            <h2>Featured charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top songs - India</p>
+                    <p class="card-info">Your daily update of the most played tracks ...</p>
+                </div>
+            <!-- so yaha ke baad hum dekh nahi paa rahe honge to abhi ke liyea jugad laga lete hai bahut sare br tag laga de -->
+            <!-- waise spotify ki website me bhi iska solution alag se kara hai unahone nav footer banaya hai -->
+             <div class="footer">
+                <div class="line"></div>
+             </div>
+            </div>
+        </div>
+
     </div>
-    <div class="musicplayer">music player</div> 
+    <div class="musicplayer">
+        <div class="album"></div>
+        <div class="player">
+            <div class="player-control">
+                <img src="./assets/player_icon1.png" class="player-control-icon">
+                <img src="./assets/player_icon2.png" class="player-control-icon">
+                <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity:1; height:2rem;">
+                <img src="./assets/player_icon4.png" class="player-control-icon">
+                <img src="./assets/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot-time">3:33</span>
+            </div>
+        </div>
+        <div class="control"></div>
+    </div> 
 </body>
 </html>
