@@ -1,8 +1,8 @@
 body{
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     overflow:hidden;
 }
 
@@ -13,11 +13,11 @@ body{
 }
 
 .sidebar{
-    background-color: black;
+    background-color: #000;
     width: 340px;
     border-radius:16rem;
     /*1rem == 16px*/
-    margin: right 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .main_content{
@@ -40,7 +40,7 @@ body{
 
 a{
     text-decoration: none;
-    color:white;
+    color:#fff;
 }
 
 .nav{
@@ -75,7 +75,7 @@ a{
 }
 
 .library{
-    background-color: grey;
+    background-color: #121212;
     border-radius:1rem;
     height:100%;
     /* to give rest of the full height */
@@ -112,7 +112,7 @@ a{
 
 .box{
     height:8rem;
-    background-color: lightgray;
+    background-color: #232323;
     border-radius: 0.75rem;
     margin:0.75rem 0 1.75rem 0;
     padding:0.75rem 1rem;
@@ -131,7 +131,7 @@ a{
 }
 
 .badge{
-    background-color:white;
+    background-color:#fff;
     border:none;
     border-radius: 100px;
     padding:0.25rem 1rem;
@@ -144,7 +144,7 @@ a{
 
 .dark-badge{
     background-color:#000;
-    color:#ffffff;
+    color:#fff;
 }
 
 /* in the website the content of page on scrooling can be seen through nav  */
@@ -182,7 +182,7 @@ a{
 }
 
 .card{
-    background-color:lightgrey;
+    background-color:#232323;
     width:150px;
     border-radius: 0.5rem;
     padding:1rem;
@@ -222,7 +222,7 @@ a{
 .line{
     width:90%;
     height:50%;
-    border-top:1px solid white;
+    border-top:1px solid #fff;
     opacity:0.4;
 }
 
