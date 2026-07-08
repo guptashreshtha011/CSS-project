@@ -233,7 +233,7 @@ a{
 }
 
 .album{
-    background-color: pink;
+    background-color: black;
     width:25%
 }
 
@@ -243,7 +243,7 @@ a{
 
 .control{
     width:25%;
-    background-color: pink;
+    background-color: black;
 }
 
 .player-controls{
@@ -292,5 +292,38 @@ a{
     background-color: #1bd760;
     border-radius:50%;
     margin-top:-6px;
+}
+
+.album{
+    display: flex;
+    height:72px;
+    text-align: center;
+    line-height: 5px;
+}
+.abm{
+    width:3rem;
+    height: 3rem;
+    margin-top: 0.75rem;
+    margin-left:0.5rem;
+}
+
+.p1{
+    font-size:1rem;
+}
+.p2{
+    font-size:0.75rem;
+    margin-left: 0.7rem;
+    margin-bottom:1rem;
+
+}
+.album-icon{
+    height:2rem;
+    margin-top: 1rem;
+    margin-left:25px;
+    justify-content: space-between;
+}
+.heart{
+    height:1.4rem;
+    margin-top:1.2rem;
 }
 
